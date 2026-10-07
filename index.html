@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Hola Mundo</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+        }
+
+        .contenedor {
+            text-align: center;
+            padding: 50px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 70px;
+            margin-bottom: 15px;
+            text-shadow: 0 0 20px #00eaff;
+        }
+
+        p {
+            font-size: 22px;
+            color: #d9faff;
+        }
+
+        .boton {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            border-radius: 30px;
+            background: #00eaff;
+            color: #0f2027;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .boton:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 25px #00eaff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <h1>¡Hola Mundo! 🌎</h1>
+
+        <p>
+            Mi primera página web en HTML
+        </p>
+
+        <a href="#" class="boton">
+            ¡Bienvenido!
+        </a>
+    </div>
+
+</body>
+</html>
